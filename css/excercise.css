@@ -272,7 +272,9 @@ nav ul li a {
 /* responsive media queary mobile device */
 
 @media screen and (max-width: 576px) {
-    header, .change-habits{
+    header, 
+    .change-habits, 
+    .extra{
         padding: 20px;
     }
     .hamburger {
@@ -281,7 +283,7 @@ nav ul li a {
     .nav-link {
         display: none;
     }
-    .banner{
+    .banner, .run-extra{
         flex-direction: column;
     }
     .banner-images img{
@@ -296,5 +298,11 @@ nav ul li a {
     }
     .habits-row{
         grid-template-columns: 1fr;
+    }
+    .run-extra{
+        gap: 0;
+    }
+    .run-extra-description button{
+        width: 100%;
     }
 }
