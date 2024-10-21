@@ -232,7 +232,7 @@ nav ul li a {
 /* responsive media queary mobile device */
 
 @media screen and (max-width: 576px) {
-    header{
+    header, .change-habits{
         padding: 20px;
     }
     .hamburger {
@@ -253,5 +253,8 @@ nav ul li a {
     }
     .vdo-tutorial{
         left: 150px;
+    }
+    .habits-row{
+        grid-template-columns: 1fr;
     }
 }
