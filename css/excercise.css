@@ -311,7 +311,8 @@ nav ul li a {
 @media screen and (max-width: 576px) {
     header, 
     .change-habits, 
-    .extra{
+    .extra,
+    .training-excercise{
         padding: 20px;
     }
     .hamburger {
@@ -341,5 +342,17 @@ nav ul li a {
     }
     .run-extra-description button{
         width: 100%;
+    }
+    .row-card img{
+        width: 100%;
+    }
+    .extra-card{
+        display: none;
+    }
+    .row1{
+        grid-template-columns: 1fr 1fr;
+    }
+    .row2{
+        grid-template-columns: 1fr 1fr;
     }
 }
