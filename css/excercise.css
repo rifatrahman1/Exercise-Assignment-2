@@ -266,6 +266,43 @@ nav ul li a {
     padding: 30px 32px;
 }
 
+/* training and excercise section start */
+
+.training-excercise{
+    margin-top: 100px;
+}
+.training-description h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.training-description p{
+    margin-top: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.training-row{
+    margin-top: 58px;
+    
+}
+.row1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.row2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.row-card{
+    position: relative;
+}
+.row-card p{
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+}
 
 
 
