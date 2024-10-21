@@ -64,6 +64,20 @@ nav ul li a {
     background-color: rgb(230, 83, 60);
 }
 
+.hamburger {
+    display: none;
+    margin-right: 20px;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 4px;
+}
+
 /* banner section start */
 
 .banner {
@@ -165,4 +179,31 @@ nav ul li a {
     font-size: 16px;
     margin-top: 8px;
     color: rgba(239, 237, 232, 0.65);
+}
+
+/* responsive media queary mobile device */
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    .hamburger {
+        display: flex;
+    }
+    .nav-link {
+        display: none;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-images img{
+        margin-top: 48px;
+        width: 100%;
+    }
+    .free-work{
+        right: -24px;
+    }
+    .vdo-tutorial{
+        left: 150px;
+    }
 }
