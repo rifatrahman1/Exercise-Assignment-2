@@ -282,6 +282,77 @@ nav ul li a {
     padding: 30px 32px;
 }
 
+/* favorate product section start */
+
+.favorate-product{
+    margin-top: 100px;
+}
+.product-description p{
+    font-size: 22px;
+    font-weight: 800;
+    color: #f1fc00;
+    text-align: center;
+}
+.product-description h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 14px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.product-row{
+    display: grid;
+    column-gap: 20px;
+    margin-top: 88px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.product-card{
+    text-align: center;
+    padding: 20px;
+    width: 265px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.product-card img{
+    width: 225px;
+    height: 225px;
+}
+.product-card h3{
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 18px;
+    color: rgb(255, 255, 255);
+}
+.price{
+    display: flex;
+    gap: 8px;
+    margin-top: 13px;
+    justify-content: center;
+    align-items: center;
+}
+.high{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: line-through;
+    color: rgba(255, 255, 255, 0.5);
+}
+.low{
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+.product-card button{
+    padding: 16px 40px;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #f1fc00;
+}
+.product-card button i{
+    padding-right: 8px;
+}
+
 /* training and excercise section start */
 
 .training-excercise {
@@ -657,5 +728,10 @@ footer{
     .started-footer,
     .get-footer{
         margin-top: 30px;
+    }
+    .product-row{
+        gap: 5px;
+        padding: 10px;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
