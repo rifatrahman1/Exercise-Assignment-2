@@ -453,6 +453,118 @@ option {
     background-color: rgb(230, 83, 60);
 }
 
+/* meet our team section start */
+
+.meet-our-team{
+    margin-top: 88px;
+}
+.team-description{
+    text-align: center;
+}
+.team-description h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.team-description p{
+    margin-top: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.head-team-row{
+    margin-top: 58px;
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.team-row{
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.team-card{
+    position: relative;
+}
+.team-card img {
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+}
+.team-card-title{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.team-card h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.team-card p{
+    margin-top: 8px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* footer section start */
+
+footer{
+    margin-top: 88px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.main-footer{
+    padding: 86px 0 35px 0;
+}
+.fitness-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fitness-description h1{
+    font-size: 70px;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+}
+.fitness-description p{
+    line-height: 24px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.started-footer h1{
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 39px;
+    color: rgb(255, 255, 255);
+}
+.started-footer p{
+    font-size: 23px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.get-footer h1{
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 39px;
+    color: rgb(255, 255, 255);
+}
+.get-footer p{
+    font-size: 23px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.reserved hr{
+    margin-top: 80px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.reserved p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.reserved p > a{
+    text-decoration: none;
+    color: rgb(230, 83, 60);
+}
 
 
 
@@ -466,12 +578,15 @@ option {
     .change-habits,
     .extra,
     .training-excercise,
-    .bmi-calculator, .calculator{
+    .bmi-calculator,
+    .calculator,
+    .meet-our-team{
         padding: 20px;
     }
-   .calculator{
-    width: 100%;
-   }
+
+    .calculator {
+        width: 100%;
+    }
 
     .hamburger {
         display: flex;
@@ -483,7 +598,8 @@ option {
 
     .banner,
     .run-extra,
-    .calculator {
+    .calculator,
+    .fitness-footer {
         flex-direction: column;
     }
 
@@ -500,7 +616,8 @@ option {
         left: 150px;
     }
 
-    .habits-row {
+    .habits-row,
+    .team-row {
         grid-template-columns: 1fr;
     }
 
@@ -527,7 +644,18 @@ option {
     .row2 {
         grid-template-columns: 1fr 1fr;
     }
-    .calculate-bmi{
+
+    .calculate-bmi {
         margin-top: 48px;
+    }
+    .head-team-row{
+        width: 72%;
+    }
+    .head-team-row{
+        margin-left: 80px;
+    }
+    .started-footer,
+    .get-footer{
+        margin-top: 30px;
     }
 }
